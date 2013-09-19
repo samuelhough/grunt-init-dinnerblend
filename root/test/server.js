@@ -4,7 +4,7 @@ var connect = require('connect')
 
 console.log( 'View browser tests at: ');
 console.log( ' ' );
-console.log(' http://localhost:'+ {%= test_port_number %}+'/index.html' );
+console.log( 'http://localhost:'+ {%= test_port_number %}+'/index.html' );
 
 connect.createServer(
   connect.static(__dirname + '/public')
