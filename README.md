@@ -32,5 +32,4 @@ _Note that this template will generate files in the current directory, so be sur
 This project is a fork and heavily reliant on Ben Altman's grunt-init-node
 https://github.com/gruntjs/grunt-init-node
 
-This project uses the mocha structure and setup from Chris Abram's 'Node-Mocha-CoffeeScript-Starter' kit.
-https://github.com/samuelhough/Node-Mocha-CoffeeScript-Starter
+This project uses the mocha structure and setup from Chris Abrams
