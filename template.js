@@ -66,6 +66,7 @@ exports.template = function(grunt, init, done) {
       "grunt-contrib-connect": "0.3.0",
       "grunt-contrib-uglify": "0.2.0",
       "grunt-contrib-watch": "0.3.1",
+      "grunt-contrib-copy": "0.4.1",
       "grunt-livereload": "0.1.2",
       "grunt-mocha": "0.3.0",
       "grunt-strip": "0.2.0",
