@@ -1,4 +1,4 @@
-# grunt-init-dunnerblend
+# grunt-init-dinnerblend
 
 > Create a browser module with [grunt-init][] using coffeescript while using mocha and assert for unit tests.
 
