@@ -1,0 +1,30 @@
+{exec} = require "child_process"
+
+REPORTER = "spec"
+
+onTestFail = ->
+
+onTestPass = ->
+
+task "test", "run all tests", ->
+  startTime = new Date()
+
+  exec "NODE_ENV=test
+    ./node_modules/.bin/mocha
+    --debug
+    --compilers coffee:coffee-script
+    --reporter spec
+    --require coffee-script
+    --require test/helper.coffee
+    --colors
+    --growl
+    --ui bdd
+    test/**/*.coffee
+  ", (err, output) ->
+    endTime = new Date()
+    if err
+      onTestFail()
+      time = (endTime.getTime() - startTime.getTime()) / 1000
+      throw time + " seconds: " + err 
+    console.log output
+    onTestPass()
