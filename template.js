@@ -70,7 +70,8 @@ exports.template = function(grunt, init, done) {
       "grunt-livereload": "0.1.2",
       "grunt-mocha": "0.3.0",
       "grunt-strip": "0.2.0",
-      "mocha": "1.8.2"
+      "mocha": "1.8.2",
+      "chai": "1.7.0"
     };
 
     // Files to copy (and process).
